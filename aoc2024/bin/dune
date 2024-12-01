@@ -1,0 +1,7 @@
+(executable
+ (name day1)
+ (public_name day1))
+
+(executable
+ (name day2)
+ (public_name day2))

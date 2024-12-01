@@ -25,7 +25,10 @@
               ocamlPackages.ocamlformat
               ocamlPackages.ocaml-lsp
               ocamlPackages.utop
+              ocamlPackages.core
+              ocamlPackages.stdio
             ];
+            shellHook = "eval $(opam env --switch=5.2.0)";
           };
         }
     );
