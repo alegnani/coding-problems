@@ -18,15 +18,12 @@
         with pkgs; {
           devShells.default = mkShell {
             buildInputs = [
-              opam
-              ocaml
-              dune_3
-              ocamlPackages.odoc
-              ocamlPackages.ocamlformat
-              ocamlPackages.ocaml-lsp
-              ocamlPackages.utop
-              ocamlPackages.core
-              ocamlPackages.stdio
+              scala-next
+              scalafmt
+              scala-cli
+              sbt
+              metals
+              coursier
             ];
             shellHook = "eval $(opam env --switch=5.2.0)";
           };
