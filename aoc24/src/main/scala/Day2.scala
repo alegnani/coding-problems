@@ -36,7 +36,7 @@ object Day2 {
         .exists(is_safe)
     })
 
-    println("Day 1, Part 2: " + count2)
+    println("Day 2, Part 2: " + count2)
 
   }
 }
