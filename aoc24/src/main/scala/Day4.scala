@@ -1,12 +1,12 @@
 import scala.util.matching.Regex
 import scala.compiletime.ops.boolean
 
-def input3 = scala.io.Source.fromFile("inputs/input4").mkString
+def input4 = scala.io.Source.fromFile("inputs/input4").mkString
 
-object Day3 {
+object Day4 {
   def main(args: Array[String]): Unit = {
 
-    val chars = input3.split("\n").map(_.toCharArray.toList).toList
+    val chars = input4.split("\n").map(_.toCharArray.toList).toList
 
     val col_amount = chars(0).length
     val row_amount = chars.length
